@@ -1,6 +1,7 @@
 book_data/results/
 book_data/taxi/
-book_data/cdc/
+book_data/cdc/*
+!book_data/cdc/mort2021us_sample.txt
 book_data/*.csv
 !book_data/taxi_zone_lookup.csv
 book_data/*.parquet
