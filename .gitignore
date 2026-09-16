@@ -1,0 +1,11 @@
+book_data/results/
+book_data/taxi/
+book_data/cdc/
+book_data/*.csv
+!book_data/taxi_zone_lookup.csv
+book_data/*.parquet
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+
+sessions/*.md
