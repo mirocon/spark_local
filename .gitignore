@@ -8,5 +8,6 @@ book_data/*.parquet
 .ipynb_checkpoints/
 __pycache__/
 .DS_Store
+data/cdc/mort2021us.txt
 
 sessions/*.md

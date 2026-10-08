@@ -8,6 +8,7 @@ Give Docker Desktop at least **8 GB RAM**. First image build downloads Spark (~2
 
 ```bash
 make build
+docker compose build  #windows
 make run-d          # detached: master + 3 workers + history + Jupyter
 make urls
 ```
