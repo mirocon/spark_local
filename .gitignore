@@ -9,5 +9,6 @@ book_data/*.parquet
 __pycache__/
 .DS_Store
 data/cdc/mort2021us.txt
+notebooks/incoming_flights/
 
 sessions/*.md

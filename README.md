@@ -24,6 +24,14 @@ make urls
 
 Token is `spark` (see `.env.spark`). This is a local classroom stack, not a locked-down multi-user JupyterHub.
 
+## Streaming lesson
+
+Notebook: `notebooks/spark_streaming_flights.ipynb`.
+
+A small script, `notebooks/flight_producer.py`, writes a JSON file of random flights from `data/T_ONTIME_REPORTING.csv` into `notebooks/incoming_flights/` every 2 seconds. The notebook reads that folder as a stream (`spark.readStream.json`) with Spark `local[*]`, and draws live charts.
+
+Start the producer before the notebook: in JupyterLab open **File > New > Terminal** and run `python flight_producer.py`. Stop it with Ctrl+C. Times are UTC.
+
 
 
 
